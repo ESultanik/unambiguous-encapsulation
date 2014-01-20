@@ -81,4 +81,4 @@ if __name__ == "__main__":
     args = argparser.parse_args()
 
     for code in find_codes(args.num_bits, args.SIZE1[0], args.SIZE2[0], args.min_hd, args.min_iso):
-        print ", ".join(map(str,code))
+        print ", ".join(map(lambda c : str(sorted(map(lambda x : x.as_long(), c))), code))
