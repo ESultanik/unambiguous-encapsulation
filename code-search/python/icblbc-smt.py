@@ -20,6 +20,12 @@
 #
 # Author: Evan A. Sultanik, Ph.D.
 #         <evan.sultanik@digitaloperatives.com>
+#
+# Background info is available in this blog post:
+#
+#     http://digitaloperatives.blogspot.com/2014/01/unambiguous-encapsulation-defending.html
+#
+#######################################################################
 
 import z3
 import itertools
