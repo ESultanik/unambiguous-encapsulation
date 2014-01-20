@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2013 - Digital Operatives LLC
+# Copyright (c) 2014 - Digital Operatives LLC
 # All rights reserved
 # 
 # This source code is licensed under the GNU GENERAL PUBLIC LICENSE
