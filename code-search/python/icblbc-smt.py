@@ -80,7 +80,7 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description='Enumerates Isolated Complementary Binary Linear Block Codes using Satisfiability Modulo Theories')
     argparser.add_argument('--num-bits', '-n', type=int, default=6, help='The number of bits in each codeword. Default is 6.')
     argparser.add_argument('--min-hd', '-d', type=int, default=2, help='The minimum Hamming distance allowed between any pair of codes.  Default is 2.')
-    argparser.add_argument('--min-iso', '-i', type=int, default=3, help='Isolation: the minimum Hamming distance allwed between any pair of codes between the subcodes.  Default is 3.')
+    argparser.add_argument('--min-iso', '-i', type=int, default=3, help='Isolation: the minimum Hamming distance allowed between any pair of codes between the subcodes.  Default is 3.')
     argparser.add_argument('SIZE1', nargs=1, type=int, help='The number of codes in the first subcode.')
     argparser.add_argument('SIZE2', nargs=1, type=int, help='The number of codes in the second subcode.')
 
